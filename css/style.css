@@ -93,7 +93,7 @@
 .dropdown:hover .bg-color-menu {background-color: #3e8e41;}
 
 /* ----------------------------------------------------Main Content Styleing*/
-
+/* --------------------------------------Main Index Content Styleing*/
 .main-content {
     background-color: #ebbe2c;
     border-radius: 10px;
@@ -137,6 +137,24 @@
     
 }
 
+/* --------------------------------------Main About Content Styleing*/
+.band-pic {
+    height:50px;
+    width: auto;
+}
+
+.about-band {
+    background-color: white;
+}
+.about-member {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #e0a745;
+    border-style: solid;
+    height: 200px
+}
 /* ------------------------------------------------------Footer Styleing*/
 
 .footer{
