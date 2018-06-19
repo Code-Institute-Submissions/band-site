@@ -131,7 +131,7 @@
     height: 200px
 }
 
-.main-vid {
+.main-vid{
     padding: 30px;
     border-radius: 10px;
     
@@ -139,7 +139,7 @@
 
 /* --------------------------------------Main About Content Styleing*/
 .band-pic {
-    height:50px;
+    height: 50px;
     width: auto;
 }
 
@@ -153,14 +153,22 @@
     border-radius: 10px;
     border-color: #e0a745;
     border-style: solid;
-    height: 200px
+}
+
+.vid-row {
+    margin:30px;
+}
+
+.video-res{
+    width:30%;
+    height: auto;
 }
 /* ------------------------------------------------------Footer Styleing*/
 
 .footer{
     height:15px;
-    margin: 10px;
-    position: fixed;
+    margin:10px;
+    position:fixed;
     bottom: 0;
     left: 0;
     width: 100%;
