@@ -11,40 +11,32 @@
     
     <body>
         <!---------------------------------------------------------------------------------------------------------Header Content-->
-        <header class="container-fluid header">
-                <div class="row">
-                    <div class="col-xs-2 col-sm-4 col-md-4">
-                        <a href="index.html"><img src="images/monkees name.png" alt="The Monkees"></a>
-                    </div>
-                    <div class="hidden-xs hidden-sm col-md-3">
-                        <a href="about.html"><img src="images/monkess cartoon head.png" alt="The Monkees"></a>
-                    </div>
-                    <div class="hidden-xs col-sm-2 col-md-1 col-md-offset-1 menu-item bg-color-index">
-                        <a href="index.html">Home</a>
-                    </div>
-                    <div class="hidden-xs col-sm-2 col-md-1 menu-item bg-color-media">
-                        <a href="media.html">Media</a>
-                    </div>
-                    <div class="hidden-xs col-sm-2 col-md-1 menu-item bg-color-about">
-                        <a href="about.html">About</a>
-                    </div>
-                    <div class="hidden-xs col-sm-2 col-md-1 menu-item bg-color-bookings">
-                        <a href="bookings.html">Bookings</a>
-                    </div>
-                    <div class="col-xs-2 col-xs-offset-8 hidden-sm hidden-md hidden-lg dropdown">
-                          <i class="fa fa-bars" aria-hidden="true"></i>
-                          <div class="col-xs-2 dropdown-content">
-                            <a class="bg-color-index" href="index.html">Home</a>
-                            <a class="bg-color-media" href="media.html">Media</a>
-                            <a class="bg-color-about" href="about.html">About</a>
-                            <a class="bg-color-bookings" href="bookings.html">Bookings</a>
-                          </div>
-                    </div>
-                </div>
-            </header>
-            
+ 
+    <nav class="navbar navbar-default navbar-fixed-top header">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			 <a  class = "navbar-brand" href="index.html"><img class="logo" src="images/monkees name.png" alt="The Monkees"></a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible-navbar" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="collapsible-navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="menu-item bg-color-index"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+					<li class="menu-item bg-color-active"><a href="media.html">Media</a></li>
+					<li class="menu-item bg-color-about"><a href="about.html">About</a></li>
+					<li class="menu-item bg-color-bookings"><a href="bookings.html">Bookings</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>       
             
     <!---------------------------------------------------------------------------------------------------------Main Content-->        
+    <div class="container-fluid main-content-wrapper">
+            
         <div class="container-fluid main-content">
             <div class="spotify-wrapper">
                 <iframe src="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -76,6 +68,7 @@
                 </div>
             </div>
         </div>
+    </div>    
         <!---------------------------------------------------------------------------------------------------------Footer Content-->
         <footer class="contianer-fluid footer">
             <div class="row">

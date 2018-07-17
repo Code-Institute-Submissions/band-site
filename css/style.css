@@ -2,18 +2,17 @@
 
 
 /* ------------------------------------------------------Header Styleing*/
-.header {
-    background: white;
-    height:110px;
-    position: fixed;
-    top:0;
-    width:100%;
-    z-index: 1;
+
+.logo {
+    padding:0px;
+    height: 90px;
+    position: relative;
+    top:-15px;
 }
 
 .menu-item {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
     border-top-left-radius: 40%;
     border-top-right-radius: 40%;
     border-color: #e0a745;
@@ -22,7 +21,13 @@
     font-family: 'Shrikhand', cursive;
     color:black;
     text-decoration: none;
+    width:120px;
 }
+
+.bg-color-active{
+    background-color:#ebbe2c;
+}
+
 .bg-color-index{
     background-color:#aebbc1;
 }
@@ -43,8 +48,54 @@
     background-color:#aebbc1;
 }
 
+.navbar {
+    height:99px;
+    background: white;
+    border-color: #e0a745;
+    border-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar-right{
+    position: relative;
+    bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: #ebbe2c;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    transition: all .25s ease-in-out;
+}
+
+/*------------------------------------------------------------------NAVBAR TOGGLE BUTTON*/
+
+.navbar-default .navbar-toggle {
+    color:#e0a745;
+    border-color: #e0a745;
+    background-color: #ebbe2c;
+    margin-top:30px;
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    color: #e0a745;
+    background-color: #ebbe2c;
+    transition: all .25s ease-in-out;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #fff;
+    transition: all .25s ease-in-out;
+}
+
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
+/*.dropdown {
     position: fixed;
     top: 30px;
     right:0px;
@@ -58,10 +109,10 @@
     border-radius: 10px;
     border-color: #e0a745;
     border-style: solid;
-}
+}*/
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+/*.dropdown-content {
     display: none;
     font-size:18px;
     position: absolute;
@@ -72,37 +123,40 @@
     border-style: solid;
     background-color: #ebbe2c;
     width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 2;
-}
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+   /* z-index: 2;*/
 
-/* Links inside the dropdown */
+
+/* Links inside the dropdown 
 .dropdown-content a {
     color: black;
     text-decoration: none;
     display: block;
-}
+}*/
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+/* Change color of dropdown links on hover 
+.dropdown-content a:hover {background-color: #ddd;}*/
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+/* Show the dropdown menu on hover 
+.dropdown:hover .dropdown-content {display: block;}*/
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .bg-color-menu {background-color: #3e8e41;}
+/* Change the background color of the dropdown button when the dropdown content is shown 
+.dropdown:hover .bg-color-menu {background-color: #3e8e41;}*/
 
 /* ----------------------------------------------------Main Content Styleing*/
 /* --------------------------------------Main Index Content Styleing*/
-.main-content {
+.main-content-wrapper {
     background-color: #ebbe2c;
-    border-radius: 10px;
-    border-color: #e0a745;
     border-style: solid;
-    margin-top:110px;
- 
+    margin-top:90px;
+    min-height: 2000px;
+    border-color: #e0a745;
 }
 
+.main-content {
+    overflow: auto;
+    margin-top: 30px;
+}
 .tour-table-container {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -111,6 +165,9 @@
     border-color: #e0a745;
     border-style: solid;
     overflow:hidden;
+    padding: 40px;
+    height: auto;
+    padding-top: 20px;
 }
 
 .tour-table {
@@ -128,23 +185,23 @@
     border-radius: 10px;
     border-color: #e0a745;
     border-style: solid;
-    height: 200px
-}
-
-.main-vid{
-    padding: 30px;
-    border-radius: 10px;
-    
+    height: auto;
+    padding: 40px;
+    padding-top: 20px;
 }
 
 /* --------------------------------------Main About Content Styleing*/
 .band-pic {
-    height: 50px;
+    height: 150px;
     width: auto;
+    margin: 10px;
 }
 
 .about-band {
     background-color: white;
+    border-radius: 10px;
+    border-color: #e0a745;
+    border-style: solid;
 }
 .about-member {
     margin-top: 30px;
@@ -153,6 +210,8 @@
     border-radius: 10px;
     border-color: #e0a745;
     border-style: solid;
+    height: 400px;
+    max-width: 500px;
 }
 
 .vid-row {
@@ -163,16 +222,33 @@
     width:30%;
     height: auto;
 }
+
+/* --------------------------------------Main Bookings Content Styleing*/
+
+.booking-form-entry{
+    border-radius: 10px;
+    border-color: #e0a745;
+    border-style: solid;
+}
+
+
+
 /* ------------------------------------------------------Footer Styleing*/
 
 .footer{
-    height:15px;
-    margin:10px;
+    height:30px;
+    padding-top:4px;
     position:fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
     width: 100%;
-    z-index: 1;
+    text-align: center;
+    border-color: #e0a745;
+    border-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: hidden
 
 }
 .social-links {
@@ -180,4 +256,5 @@
    font-size: 20px
 }
 
+/*------------------------------------------------------------------Media Querries*/
 
