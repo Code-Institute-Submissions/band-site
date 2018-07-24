@@ -149,7 +149,7 @@
     background-color: #ebbe2c;
     border-style: solid;
     margin-top:90px;
-    min-height: 2000px;
+    min-height: calc(100vh - 110px);
     border-color: #e0a745;
 }
 
@@ -190,13 +190,52 @@
     padding-top: 20px;
 }
 
+.vid-row {
+    margin:30px;
+}
+
+.video-res{
+    width:30%;
+    height: auto;
+}
+
+/* --------------------------------------Main Media Content Styleing*/
+
+
+.media-item {    
+    background-color: white;
+    border-radius: 10px;
+    border-color: #e0a745;
+    border-style: solid;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.audio-wrapper {
+    background-color: #ebbe2c;
+    border-radius: 30px;
+    border-color: #e0a745;
+    border-style: solid;
+    margin: 35px;
+    height: 80px;
+    padding: 10px;
+}
+    
+.audio-control {
+    width:100%;
+}
+
 /* --------------------------------------Main About Content Styleing*/
 .band-pic {
     height: 150px;
     width: auto;
-    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.band-pic-wrapper {
+    text-align: center;
+}
 .about-band {
     background-color: white;
     border-radius: 10px;
@@ -214,14 +253,7 @@
     max-width: 500px;
 }
 
-.vid-row {
-    margin:30px;
-}
 
-.video-res{
-    width:30%;
-    height: auto;
-}
 
 /* --------------------------------------Main Bookings Content Styleing*/
 
@@ -230,8 +262,6 @@
     border-color: #e0a745;
     border-style: solid;
 }
-
-
 
 /* ------------------------------------------------------Footer Styleing*/
 
