@@ -41,4 +41,8 @@ Technolgies Used
 *_Eye Dropper_ (https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) color picker chrome extension was used to select colors from the provided videos
 *_Color-Calculator_(https://www.sessions.edu/color-calculator/) was used to play with the colors picked up using Eye Dropper. Mostly to brighten dulled colors while maintaining the pastol style of them 60's cool cats.
 
+Deployment and Testing
+-----------------------
+The site was published to (https://dcasey720.github.io/band-site/) using GitHub.
+It was tested using Google Chrome and Microsoft Edge on a laptop and larger monitor, aswell as Google Chome on a Samsung Xcover.
 
