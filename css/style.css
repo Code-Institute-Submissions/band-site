@@ -53,6 +53,7 @@
     background: white;
     border-color: #e0a745;
     border-style: solid;
+    border-width: 2px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -69,6 +70,20 @@
     border-top-right-radius: 40%;
     transition: all .25s ease-in-out;
 }
+
+.navbar-header{
+    height:99px;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: #e0a745;
+}
+
+.navbar-collapse {
+    border-width:1px;
+}
+
+
 
 /*------------------------------------------------------------------NAVBAR TOGGLE BUTTON*/
 
@@ -287,4 +302,35 @@
 }
 
 /*------------------------------------------------------------------Media Querries*/
+@media (max-width: 768px) {
+.menu-item {
+    margin: 0px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-style: none;
+}
 
+.navbar-collapse{
+    margin: 0px;
+    position: fixed;
+    right: 70px;
+    top: 30px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    background-color: #ebbe2c;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+.navbar-toggle {
+    margin-top: 0px;
+}
+
+
+}
