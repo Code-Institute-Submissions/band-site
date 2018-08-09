@@ -3,6 +3,16 @@
 
 /* ------------------------------------------------------Header Styleing*/
 
+.monkee-heads {
+    position: fixed;
+    top: 10px;
+    left: 25%;
+    height: 50px;
+    width: auto;
+}
+.monkee-pic {
+    height:80px;
+}
 .logo {
     padding:0px;
     height: 90px;
@@ -195,10 +205,10 @@
 
 /* --------------------------------------Main About Content Styleing*/
 .band-pic {
-    height: 15em;
+    height: 200px;
     width: auto;
     overflow-y: hidden;
-    margin: 20px;
+    margin: 10px;
 }
 
 .band-pic-wrapper {
