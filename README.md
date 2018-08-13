@@ -35,15 +35,15 @@ Technolgies Used
 ---------------
 * __Balsamic__ was used to develop wireframes for the initial design
 * __Bootstrap 3.3.7__ (https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css) was used for layout styling. 
- - * __Boostrap Grid__ system was used for content arrangment and responsive behavour when moving between different screen sizes
- - * __Boostrap Navbar__ was used for the main navigation. Collapsible burger style menu was utilised for lower screen resolutions.
- - * __Bootstrap Forms Controls__ were used for the Bookings section
- - * __Bootstrap Font-Awesome 4.7.0__ (https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css) was used for the social media icons in the footer
+ - __Boostrap Grid__ system was used for content arrangment and responsive behavour when moving between different screen sizes
+ - __Boostrap Navbar__ was used for the main navigation. Collapsible burger style menu was utilised for lower screen resolutions.
+ - __Bootstrap Forms Controls__ were used for the Bookings section
+ - __Bootstrap Font-Awesome 4.7.0__ (https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css) was used for the social media icons in the footer
 * __Eye Dropper__ (https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) color picker chrome extension was used to select colors from the provided videos
 * __Color-Calculator__ (https://www.sessions.edu/color-calculator/) was used to play with the colors picked up using Eye Dropper. Mostly to brighten dulled colors while maintaining the pastol style of them 60's cool cats.
 
 Deployment and Testing
 -----------------------
 The site was published to (https://dcasey720.github.io/band-site/) using GitHub.
-It was tested using Google Chrome and Microsoft Edge on a laptop and larger monitor, aswell as Google Chome on a Samsung Xcover.
+It was tested using Google Chrome and Microsoft Edge on a laptop and larger monitor, as well as Google Chrome on a Samsung Xcover.
 
