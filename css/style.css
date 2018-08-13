@@ -120,30 +120,34 @@
 }
 
 /* ----------------------------------------------------Main Content Styleing*/
-/* --------------------------------------Main Index Content Styleing*/
+
 .main-content-wrapper {
     background-color: #ebbe2c;
     border-style: solid;
     margin-top:90px;
     min-height: calc(100vh - 110px);
     border-color: #e0a745;
+    padding: 0px;
 }
 
 .main-content {
     overflow: auto;
-    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left:10px;
+    margin-right: 10px;
 }
+
+/* --------------------------------------Main Index Content Styleing*/
 .tour-table-container {
-    margin-top: 30px;
-    margin-bottom: 30px;
     background-color: white;
     border-radius: 10px;
     border-color: #e0a745;
     border-style: solid;
     overflow:hidden;
-    padding: 40px;
+    padding: 30px;
     height: auto;
     padding-top: 20px;
+    margin-top: 30px;
 }
 
 .tour-table {
@@ -155,15 +159,14 @@
 }
 
 .main-vid-container{
-    margin-top: 30px;
-    margin-bottom: 30px;
     background-color: white;
     border-radius: 10px;
     border-color: #e0a745;
     border-style: solid;
     height: auto;
-    padding: 40px;
+    padding: 30px;
     padding-top: 20px;
+    margin-top: 30px;
 }
 
 .vid-row {
@@ -176,7 +179,9 @@
 }
 
 /* --------------------------------------Main Media Content Styleing*/
-
+.media-wrapper{
+    padding:0px;
+}
 
 .media-item {    
     background-color: white;
@@ -203,6 +208,7 @@
     width:100%;
 }
 
+
 /* --------------------------------------Main About Content Styleing*/
 .band-pic {
     height: 200px;
@@ -213,21 +219,22 @@
 .band-pic-wrapper {
     text-align: center;
     overflow: hidden;
+    margin:10px;
 }
 .about-band {
     background-color: white;
     border-radius: 10px;
     border-color: #e0a745;
     border-style: solid;
+    margin-top: 30px;
 }
 .about-member {
     margin-top: 30px;
-    margin-bottom: 30px;
     background-color: white;
     border-radius: 10px;
     border-color: #e0a745;
     border-style: solid;
-    height: 400px;
+    height: 440px;
     overflow-y: auto;
 }
 
@@ -237,7 +244,9 @@
     margin-right: 15px;
 }
 
-
+.about-member-wrapper{
+    padding:0px;
+}
 
 /* --------------------------------------Main Bookings Content Styleing*/
 
@@ -247,12 +256,16 @@
     border-style: solid;
 }
 
+.booking-form{
+    margin-top: 30px;
+}
 
 /* ------------------------------------------------------Footer Styleing*/
 
 .footer{
-    height:30px;
+    height:34px;
     padding-top:4px;
+    padding-bottom:4px;
     position:fixed;
     bottom: 0px;
     left: 0px;
@@ -264,11 +277,10 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: hidden
-
 }
 .social-links {
    text-align: center;
-   font-size: 20px
+   font-size: 20px;
 }
 
 /*------------------------------------------------------------------Media Querries*/
@@ -302,5 +314,7 @@
     margin-top: 0px;
 }
 
-
+.about-member {
+    height: 300px;
+}
 }
