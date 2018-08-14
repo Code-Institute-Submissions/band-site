@@ -47,3 +47,39 @@ Deployment and Testing
 The site was published to (https://dcasey720.github.io/band-site/) using GitHub.
 It was tested using Google Chrome and Microsoft Edge on a laptop and larger monitor, as well as Google Chrome on a Samsung Xcover.
 
+__Visual Testing__
+
+The dev tool within Google Chrome was used to test that the pages were displaying correctly (alignment, spacing, position etc) across different screen widths.  
+
+|               | Galaxy S5 | Pixel 2 | Pixel 2XL | iPhone 5/SE |	iPhone 6/7/8 | iPhone 6/7/8 + | iPhone X | iPad            | iPad Pro               | Responsive 1366 x 768 | Responsive 1680 x 1050 |  
+| ------------- | --------- | ------- | --------- | ----------- | -------------- | -------------- | -------- | --------------- | ---------------------- | --------------------- | ---------------------- |
+| index.html    | OK        | OK      | OK        | OK          | OK             | OK             | OK       | OK              | OK<sup>1.</sup>        | OK                    | OK                     | 
+| media.html    | OK        | OK      | OK        | OK          | OK             | OK             | OK       | OK              | OK                     | OK                    | OK                     | 
+| about.html    | OK        | OK      | OK        | OK          | OK             | OK             | OK       | OK              | OK                     | OK                    | OK                     | 
+| bookings.html | OK        | OK      | OK        | OK          | OK             | OK             | OK       | OK              | OK                     | OK                    | OK                     | 
+| navbar        | OK        | OK      | OK        | OK          | OK             | OK             | OK       | OK<sup>2.</sup> | OK                     | OK                    | OK                     | 
+
+<sup><b>1.</b></sup> <i>index.html</i> looks empty when in a larger portrate view, with more contentent could make more visualy appealing.
+
+<sup><b>2.</b></sup> The navbar display did not funtion correctly at exactly 768px (iPad resolution), and required addtional media queries to correct.
+
+__Functional Testing__
+
+|                | Chrome (Desktop) | Edge (Desktop) | Chrome (Mobile) | Samsung Internet (Mobile)|
+| -------------  | ---------------- | -------------- | --------------- | ------------------------ |
+| Ticket Links   | OK               | OK             | OK              | OK                       |
+| Video Playback | OK               | OK             | OK              | OK                       | 
+| Logo Link      | OK               | OK             | OK              | OK                       |
+| Heads Link     | OK               | OK             | OK              | OK                       | 
+| Navbar Links   | OK               | OK             | OK              | OK                       | 
+| Navbar Collapse| OK               | OK             | OK              | OK                       | 
+| FB Link        | OK               | OK             | OK              | OK                       |
+| Twitter Link   | OK               | OK             | OK              | OK                       |
+| Instagram Link | OK               | OK             | OK              | OK                       | 
+| Youtube Link   | OK               | OK             | OK              | OK                       | 
+| Spotify Link   | OK               | OK             | OK              | OK                       |
+| Audio 1        | OK               | OK             | OK              | OK                       |
+| Audio 2        | OK               | OK             | OK              | OK                       |
+| Wiki Links     | OK               | OK             | OK              | OK                       |
+| Booking Form   | OK               | OK             | OK              | OK                       |
+| Submit Btn     | OK               | OK             | OK              | OK                       |
