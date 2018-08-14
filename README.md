@@ -42,10 +42,14 @@ Technolgies Used
 * __Eye Dropper__ (https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) color picker chrome extension was used to select colors from the provided videos
 * __Color-Calculator__ (https://www.sessions.edu/color-calculator/) was used to play with the colors picked up using Eye Dropper. Mostly to brighten dulled colors while maintaining the pastol style of them 60's cool cats.
 
-Deployment and Testing
------------------------
-The site was published to (https://dcasey720.github.io/band-site/) using GitHub.
-It was tested using Google Chrome and Microsoft Edge on a laptop and larger monitor, as well as Google Chrome on a Samsung Xcover.
+Testing
+------------
+
+__Code Validation__
+
+* __HTML__ was validated using https://validator.w3.org/. No functional errors, but warnings that "The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment."
+* __CSS__ was validated using https://jigsaw.w3.org/css-validator/validator. No  errors were found.
+* __Spelling and Grammer__ was validated using http://www.reverso.net/spell-checker/english-spelling-grammar/.
 
 __Visual Testing__
 
@@ -68,7 +72,7 @@ __Functional Testing__
 |                | Chrome (Desktop) | Edge (Desktop) | Chrome (Mobile) | Samsung Internet (Mobile)|
 | -------------  | ---------------- | -------------- | --------------- | ------------------------ |
 | Ticket Links   | OK               | OK             | OK              | OK                       |
-| Video Playback | OK               | OK             | OK              | OK                       | 
+| Video Playback | OK               | OK             | OK              | OK<sup>1.</sup>          | 
 | Logo Link      | OK               | OK             | OK              | OK                       |
 | Heads Link     | OK               | OK             | OK              | OK                       | 
 | Navbar Links   | OK               | OK             | OK              | OK                       | 
@@ -82,4 +86,14 @@ __Functional Testing__
 | Audio 2        | OK               | OK             | OK              | OK                       |
 | Wiki Links     | OK               | OK             | OK              | OK                       |
 | Booking Form   | OK               | OK             | OK              | OK                       |
-| Submit Btn     | OK               | OK             | OK              | OK                       |
+| Submit Btn     | Error<sup>2.</sup>|Error<sup>2.</sup>|Error<sup>2.</sup>|Error<sup>2.</sup>    |    
+
+<sup><b>1.</b></sup> No audio controls on the Samsung Internet video player. Video plays in mute.
+
+<sup><b>2.</b></sup> Correctly asks to enter data before executing. <i>405 Not Allowed</i> error once executed, expected as form not yet linked to database.
+
+
+Monkees are Live!!
+---------------------
+
+The site was published via GitHub hosting and can be accessed at https://dcasey720.github.io/band-site/
